@@ -8,7 +8,14 @@
 *.sln.docstates
 
 # User-specific files (MonoDevelop/Xamarin Studio)
+*.vcxproj
+*.filters
 *.userprefs
+*.sln
+*.exe
+*.so
+*.ilk
+*.pdb
 
 # Build results
 [Dd]ebug/
