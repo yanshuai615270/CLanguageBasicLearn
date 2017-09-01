@@ -36,8 +36,8 @@ int main()
 			++count;
 		i++;
 	}
-	printf("input = %s\n", input);
-	printf("out put is : %d\n", count);
+     printf("input = %s\n", input);
+     printf("out put is : %d\n", count);
 
     return OK;
 }
