@@ -69,9 +69,8 @@ int main()
 	getRowOrCloumnNum(&column);
 
 	if (0 >= row || 0 >= column)
-	{
 		return 0;
-	}
+
 	for (int i = 0; i < row; i++)
 	{
 		for (int j = 0; j < column; j++)
@@ -86,13 +85,9 @@ int main()
 
 	bFindRet = FindNumFromMatrix(matrix, row, column, numToFind);
 	if (bFindRet)
-	{
 		printf("founded and end the pro.\n", numToFind);
-	}
 	else
-	{
 		printf("NOT founded and end the pro.\n", numToFind);
-	}
     return 0;
 }
 
