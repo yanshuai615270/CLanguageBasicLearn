@@ -137,4 +137,3 @@ int main()
 	PrintListNodeReversed(pHeadOfList);
 	return 0;
 }
-
